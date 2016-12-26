@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.0] D:\New folder\CustomIncomingCallScreen-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:12:22-75
+application
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:14:5-35:19
+MERGED from [com.android.support:support-v4:23.0.0] D:\New folder\CustomIncomingCallScreen-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:16:9-45
+	android:theme
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:18:9-40
+receiver#inez.apps.customincomingcallscreen.PhoneStateReceiver
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:20:9-24:20
+	android:name
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:20:19-87
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:21:13-23:29
+action#android.intent.action.PHONE_STATE
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:22:17-76
+	android:name
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:22:25-73
+service#inez.apps.customincomingcallscreen.MyService
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:26:9-33:19
+	android:enabled
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:27:13-72
+intent-filter#android.intent.action.MAIN+inez.apps.customincomingcallscreen.MyService
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:29:13-32:29
+action#inez.apps.customincomingcallscreen.MyService
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:30:17-87
+	android:name
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:30:25-84
+action#android.intent.action.MAIN
+ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from D:\New folder\CustomIncomingCallScreen-master\app\src\main\AndroidManifest.xml:31:25-66
